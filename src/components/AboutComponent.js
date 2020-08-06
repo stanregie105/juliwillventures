@@ -36,7 +36,7 @@ class About extends Component{
          <Collapse isOpen={this.state.isNavOpen} navbar> 
             <Nav navbar>
                 <NavItem>
-                    <NavLink className="nav-link" to="/home">
+                    <NavLink className="nav-link" to="/">
                     <span className="fa fa-home fa-lg"></span>Home
                     </NavLink>
                 </NavItem>
@@ -96,7 +96,7 @@ class About extends Component{
                      <div className="col-4 offset-1 col-sm">
                         <h5>Links</h5>
                         <ul className="list-unstyled">
-                            <li><a href="/home">Home</a></li>
+                            <li><a href="/">Home</a></li>
                             <li><a href="/about">About</a></li>
                             <li><a href="/contact">Contact</a></li>
                         </ul>

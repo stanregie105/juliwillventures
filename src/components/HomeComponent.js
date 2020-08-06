@@ -117,7 +117,7 @@ import {  withRouter} from 'react-router-dom';
                      <div className="col-4 offset-1 col-sm">
                         <h5>Links</h5>
                         <ul className="list-unstyled">
-                            <li><a href="/home">Home</a></li>
+                            <li><a href="/">Home</a></li>
                             <li><a href="/about">About</a></li>
                             <li><a href="/contact">Contact</a></li>
                         </ul>
