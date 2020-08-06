@@ -86,10 +86,11 @@ class Contact extends Component {
                       </div>
                 </div>
             <div className="row row-content">
-                <div className="col-12">
-                <h3>Location Information</h3>
+                <div className="col-sm-4">
                 </div>
-                <div className="col-12 col-sm-5 ">
+                <div className="col-12 col-sm-6 ">
+                         <h3>Location Information</h3>
+
                         <h5>Our Address</h5>
                         <address>
                         8, Joseph Iyinolakan street<br />
@@ -99,20 +100,16 @@ class Contact extends Component {
                         <i className="fa fa-fax"></i>: +234 8023058279<br />
                         <i className="fa fa-envelope"></i>: <a href="mailto:juliwillventures72@gmail.com">juliwillventures72@gmail.com</a>
                         </address>
-                </div>
-                <div className="col-12 col-sm-6 offset-sm-1">
-                    <h5>Map of our Location</h5>
-                    <div>
-                        <GoogleMap/>
-                   </div>
-                </div>
-                <div className="col-12 col-sm-11 offset-sm-1">
+                    <div className="col-12 col-sm-11 offset-sm-1">
                     <div className="btn-group" role="group">
                         <a role="button" className="btn btn-primary" href="tel:+2347031855342"><i className="fa fa-phone"></i> Call</a>
                         <a role="button" className="btn btn-info"><i className="fa fa-skype"></i> Skype</a>
                         <a role="button" className="btn btn-success" href="mailto:juliwillventures72@gmail.com"><i className="fa fa-envelope-o"></i> Email</a>
                     </div>
                 </div>
+                </div>
+               
+               
             </div>
             <div className="row row-content">
                 <div className="col-12">
