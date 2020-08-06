@@ -73,7 +73,7 @@ import {  withRouter} from 'react-router-dom';
          <Collapse isOpen={this.state.isNavOpen} navbar> 
             <Nav navbar>
                 <NavItem>
-                    <NavLink className="nav-link" to="/home">
+                    <NavLink className="nav-link" to="/">
                     <span className="fa fa-home fa-lg"></span>Home
                     </NavLink>
                 </NavItem>
